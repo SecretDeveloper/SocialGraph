@@ -1,0 +1,15 @@
+function getData() {
+
+  return {
+  "nodes":[
+    <<({"name":"@name_firstname_male@","group":\d},
+    ){10}>>
+    {"name":"stkbl0005","group":5}
+  ],
+  "links":[
+    <<({"source":"@name_firstname_male@","target":"@name_firstname_male@","value":\d},
+    ){10}>>
+    {"source":"stkbl0004","target":"stkbl0005","value":3}
+  ] };    
+    
+}

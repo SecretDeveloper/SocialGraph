@@ -1,0 +1,33 @@
+function getData() {
+
+  return {
+  "nodes":[
+    {"name":"Camden","group":1},
+    {"name":"Parker","group":5},
+    {"name":"Adam","group":5},
+    {"name":"Parker","group":4},
+    {"name":"Wyatt","group":4},
+    {"name":"Henry","group":4},
+    {"name":"Riley","group":7},
+    {"name":"Landon","group":8},
+    {"name":"Josiah","group":5},
+    {"name":"Nathaniel","group":6},
+    
+    {"name":"stkbl0005","group":5}
+  ],
+  "links":[
+    {"source":"Camden","target":    "Adam","value":3},
+    {"source":"Parker","target":    "Camden","value":0},
+    {"source":"Adam","target":      "Henry","value":8},
+    {"source":"Parker","target":    "Josiah","value":5},
+    {"source":"Wyatt","target":     "Landon","value":1},
+    {"source":"Henry","target":     "Nathaniel","value":5},
+    {"source":"Riley","target":     "Parker","value":7},
+    {"source":"Landon","target":    "Parker","value":0},
+    {"source":"Josiah","target":    "Riley","value":5},
+    {"source":"Nathaniel","target": "Wyatt","value":1},
+    
+    {"source":"Camden","target":"stkbl0005","value":3}
+  ] };    
+    
+}
